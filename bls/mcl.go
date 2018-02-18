@@ -9,6 +9,9 @@ import "C"
 import "fmt"
 import "unsafe"
 
+// CurveSNARK -- libsnark curve
+const CurveSNARK = C.mclBn_CurveSNARK1
+
 // CurveFp254BNb -- 254 bit curve
 const CurveFp254BNb = C.mclBn_CurveFp254BNb
 
