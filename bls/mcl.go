@@ -9,6 +9,10 @@ import "C"
 import "fmt"
 import "unsafe"
 
+// CurveSNARK1 -- original libsnark curve, corresponds to the curve
+// primitives on the Ethereum VM
+const CurveSNARK1 = C.mclBn_CurveSNARK1
+
 // CurveFp254BNb -- 254 bit curve
 const CurveFp254BNb = C.mclBn_CurveFp254BNb
 
